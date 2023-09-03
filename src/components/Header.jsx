@@ -16,7 +16,7 @@ const Header = (props) => {
     
     <input onChange={(e) => {
         console.log(e.target.value)
-        setInp(e.target.value)}}/> <button onClick={(e) => {handleSubmit(e)}}>Go</button>
+        setInp(e.target.value)}}/> <button className="btn btn-warning" onClick={(e) => {handleSubmit(e)}}>Go</button>
     </form></span>
 </nav>
   )
